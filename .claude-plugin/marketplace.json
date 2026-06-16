@@ -1,0 +1,23 @@
+{
+  "name": "freelancer-toolkit-marketplace",
+  "owner": {
+    "name": "Ranniel",
+    "email": "rannielabueg17@gmail.com"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the freelancer-toolkit plugin.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "freelancer-toolkit",
+      "source": "./my-freelancer-plugin",
+      "description": "A freelancer's toolkit for client onboarding, content creation, and project management.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ranniel",
+        "email": "rannielabueg17@gmail.com"
+      }
+    }
+  ]
+}

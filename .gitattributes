@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Shell scripts must always check out with LF — CRLF breaks bash,
+# including this plugin's PostToolUse hooks.
+*.sh text eol=lf

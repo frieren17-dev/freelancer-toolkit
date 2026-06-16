@@ -1,0 +1,11 @@
+# Secrets / local environment — never commit these
+.env
+.env.*
+!.env.example
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+
+# Personal / course notes — not for the public repo
+Week-4-Day-2.md
